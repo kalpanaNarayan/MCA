@@ -1,0 +1,254 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font-family:'Bangers', cursive, sans-serif;
+  }
+
+
+.hero-image {
+  padding:1rem;
+  height: fit-content;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-image-inner{
+  display: inline-flex;
+  
+}
+
+.hero-image-text{
+  flex: 1;
+  font-size: 4em;
+  background-color:plum;
+  text-align:center; 
+}
+
+.hero-image-text>p{
+  color:purple !important;
+
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:white
+}
+
+.hero-text button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: black;
+  background-color:#ddd;
+  text-align: center;
+  cursor: pointer; 
+
+
+}
+
+.hero-text button:hover {
+  background-color: plum;
+  color: white;
+}
+
+
+
+.button {
+  outline: none;
+  border: none;
+  padding: 1rem;
+  background-color: pink;
+  border-radius: 5px !important;
+  box-shadow: 2px black;
+  border: 3px solid transparent;
+  z-index: 2147483647;
+
+}
+
+button:hover {
+  
+  border: 2px solid purple;
+  font-weight: 600;
+}
+.loc-gif{
+  position: absolute;
+ height: 120px;
+ 
+}
+
+.gif{
+  width: 150px;
+  height: 150px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.app-container {
+    background: #f3f3ff;
+    min-height: 940px;
+    width: 100%;
+    height: 100vh;
+}
+
+.circle {
+    width: 450px;
+    height: 450px;
+    background: linear-gradient(to bottom, #fa39ad 40%, #fe6c4c 50%);
+    filter: blur(120px);
+}
+
+.red {
+    background: #fe624d;
+    border: 2px solid #ee5e4b;
+}
+
+.yellow {
+    background: #FFC432;
+    border: 2px solid #F2BD3A;
+}
+
+.green {
+    background: #5BDE47;
+    border: 2px solid #5FC651;
+}
+
+.app-color-yellow {
+    color: #FFA41D;
+}
+
+.app-color-black {
+    color: #292B48;
+}
+
+.app-color-gray {
+    color: #877F95;
+}
+
+.app-color-lavendar {
+    color: #9EA1CF;
+}
+
+.app-color-pink {
+    color: #FB28CD;
+}
+
+.app-bg-lavendar {
+    background: #D5D7FF;
+
+}
+
+.app-bg-light-white {
+    background: #F7F8FF;
+}
+
+.app-bg-light-white-2 {
+    background: #EFF2FC;
+}
+
+.app-color-dribbble {
+    color: #E04B85;
+}
+
+.app-shadow {
+    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.03);
+}
+
+.app-title {
+    background: linear-gradient(45deg, #fb28cd, #7c65d7);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+span.active {
+    position: relative;
+    color: #292b48;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+span.active::after {
+    content: '';
+    width: 200%;
+    height: 2px;
+    background: #292b48;
+    position: absolute;
+    bottom: -20px;
+}
+
+.switch-checkbox {
+    display: none;
+}
+
+.switch {
+    position: relative;
+}
+
+.switch-bg {
+    height: 24px;
+    width: 44px;
+    background: #fb28cd;
+    border-radius: 15px;
+}
+
+.switch-indicator {
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background: #fb28cd;
+    border: 5px solid white;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    transition: .2s ease-out;
+}
+
+.switch-checkbox:checked~.switch-indicator {
+    transform: translateX(100%);
+}
+
+.switch-checkbox:checked~.switch-bg {
+    background: #e9ecfa;
+}
+
+.scrolling-container {
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+
+.scrolling-text {
+  margin: 0;
+  padding: 0;
+  white-space: nowrap;
+  animation: scrollText 5s linear infinite;
+}
+
+.scrolling-container:hover .scrolling-text {
+  animation-play-state: paused;
+}
+
+@keyframes scrollText {
+  from {
+      transform: translateX(100%);
+  }
+  to {
+      transform: translateX(-100%);
+  }
+}

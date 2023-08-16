@@ -1,6 +1,6 @@
 print("\nFlight delay prediction is an important area of research in aviation. Predicting flight delays accurately can help airlines and passengers plan better.")
 intro="Introducing kalpana.N, a passionate programmer and avid reader, with a roll number of 2347229. In the year 2023-24, Kalpana.N has ventured into the domain of flight delay prediction using Python. With a deep appreciation for books and a keen interest in technology."
-#word counting
+
 print("\n<--word counting-->")
 def count_word_frequency(paragraph, target_word):
     words = paragraph.split()

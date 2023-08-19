@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="ecom.dtd" type="application/xml-dtd"?>
+<products>
+    <product pid="E12345">
+        <Pname>Samsung</Pname>   
+        <price>500$</price>
+        <quantity>40</quantity>
+        <category>mobilephones</category>
+    </product>
+    <product pid="C12346">
+        <Pname>t-shirts</Pname>   
+        <price>50$</price>
+        <quantity>700</quantity>
+        <category>clothing</category>
+    </product>
+    <product pid="E12347">
+        <Pname>Ironbox</Pname>   
+        <price>28$</price>
+        <quantity>500</quantity>
+        <category>Electronics</category>
+    </product>
+    <product pid="E12348">
+        <Pname>ferarro</Pname>   
+        <price>15$</price>
+        <quantity>600</quantity>
+        <category>chocolates</category>
+    </product>
+    <product pid="E12349">
+        <Pname>apple</Pname>   
+        <price>10$</price>
+        <quantity>86</quantity>
+        <category>Grocery</category>
+    </product>
+
+</products>

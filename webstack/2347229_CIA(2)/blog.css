@@ -1,0 +1,67 @@
+.navbar navbar-expand-lg bg-body-tertiary 
+{
+    background-color: yellowgreen;
+     text-shadow: 1cm;
+      padding: 3rem;
+      display: flex;
+      justify-content: left !important;
+    }
+
+body {
+     background-image: url('https://cdn.geekboots.com/geek/background-animation-screenshot-1659174289304.gif') !important;
+      background-repeat: no-repeat;
+      background-size: cover;
+       background: transparent;
+       position: relative;
+    }
+.container-fluid {
+    text-decoration: none !important;}
+.banner {
+     background-image: url('https://i.stack.imgur.com/p9mUO.jpg');
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 50vh;
+      background-attachment: fixed;
+
+}
+
+.text { color: white;
+     font-weight: 600;
+     font-size: 40px;
+      text-align: center;
+      padding-top: 10rem;}
+.formelement {
+     margin: 1rem;
+     padding: 1rem;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    padding-inline: 1rem;}
+input {border: 1px solid blue;
+      border-radius: 5px;
+      padding: 1rem;
+       outline: none;
+    margin: 1rem;}
+.internal {
+     justify-content: center !important;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+footer{
+    text-align: center;
+    padding:0rem;
+    background-color: DarkSalmon;
+    color: white;
+}
+.hero-image{
+    background-image: url('https://d33wubrfki0l68.cloudfront.net/b4759e96fa9ada8ee8caa4c771fcd503f289d791/6de77/static/triangle_background-9df4fa2e10f0e294779511e99083c2bc.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.hero-text{
+    padding: 8rem;
+    margin-top: 1rem;
+}

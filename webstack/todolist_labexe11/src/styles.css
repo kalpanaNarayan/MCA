@@ -1,0 +1,133 @@
+/* App container */
+.app {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Task list */
+.task-list {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/* Task item */
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8px 0;
+  padding: 8px;
+  background-color: #f5f5f5;
+  background-image: url('https://'); /* Add your background image URL here */
+  background-size: cover;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: background-color 0.3s; /* Add background color transition effect */
+}
+
+.task-item:hover {
+  background-color: #e5e5e5; /* Change background color on hover */
+}
+
+.task-item span {
+  flex-grow: 1;
+  margin-right: 8px;
+}
+
+/* Edit button */
+.edit-button {
+  background-color: lightblue; /* Green color */
+  color: black;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s; /* Add background and color transition */
+}
+
+.edit-button:hover {
+  background-color: #1e7e34; /* Darker green on hover */
+}
+
+/* Delete button */
+.delete-button {
+  background-color: plum; /* Red color */
+  color:black;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-left: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s; /* Add background and color transition */
+}
+
+.delete-button:hover {
+  background-color: #b31323; /* Darker red on hover */
+}
+
+/* Save button */
+.save-button {
+  background-color: gold; /* Blue color */
+  color:black;
+  border: none;
+  padding: 4px 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-left: 4px;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s; /* Add background and color transition */
+}
+
+.save-button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Task form */
+.task-form {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 16px 0;
+}
+
+.task-form input[type="text"] {
+  width: 400px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: box-shadow 0.3s, border-color 0.3s; /* Add a transition effect */
+}
+
+/* Add a glow effect on focus */
+.task-form input[type="text"]:focus {
+  outline: none;
+  border-color: #007bff; /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a glowing box shadow */
+}
+
+.task-form button {
+  margin-left: 8px;
+  cursor: pointer;
+  background-color:purple; /* Blue color */
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  padding: 8px 16px;
+  font-size: 16px;
+  transition: background-color 0.3s, color 0.3s; /* Add background and color transition */
+}
+
+.task-form button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+body{
+  background-color: #f5f5f5;
+  background-image: url('https://images.pexels.com/photos/1008000/pexels-photo-1008000.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'); /* Add your background image URL here */
+  background-size: cover;
+  /* border: 1px solid #ccc;
+  border-radius: 4px; */
+  transition: background-color 0.3s; /* Add background color transition effect */
+}
